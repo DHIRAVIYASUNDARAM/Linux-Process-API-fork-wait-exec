@@ -44,41 +44,8 @@ int main(void)
 	printf("The process id of parent function: %d\n",p_process_id);
 	return 0; }
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-##OUTPUT
-
-```
-$ ./pidcheck.o 
-The process id: 2382
-The process id of parent function: 2258
-
-$ ps 
-  PID TTY          TIME CMD
- 2258 pts/0    00:00:00 bash
- 2392 pts/0    00:00:00 ps
-```
-
-
-
-
-
-
-
-
+## Output
+![WhatsApp Image 2024-10-03 at 15 32 43_866f3be0](https://github.com/user-attachments/assets/3360ee69-975a-4d3e-bfa8-68c7f404e285)
 
 
 
@@ -126,13 +93,10 @@ exit(0);}
 
 
 
-##OUTPUT
-```
-$ ./forkcheck.o 
-I am parent, my pid is 13676
-Iam child my pid is 13677
-My parent pid is:13676
-```
+## OUTPUT
+![WhatsApp Image 2024-10-03 at 15 32 16_69f7719d](https://github.com/user-attachments/assets/4975f9f0-74cf-48bb-afe5-19a79e5dc9f0)
+
+
 
 
 
@@ -190,13 +154,9 @@ printf("Running ps with execlp. Now with path specified\n");
 
 
 
-##OUTPUT
+## OUTPUT
 
-```
-$ ./execcheck2.o 
-Running ps with execlp
-child did not exit successfully
-```
+![WhatsApp Image 2024-10-03 at 15 32 40_951d2993](https://github.com/user-attachments/assets/7409c3fe-ee76-442f-991a-e898f06d7624)
 
 
 
